@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 251px;
+    /* margin-top: 62px; */
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.img-logo{
+    width: 50.06px;
+    height: 55px;
+    margin-top: 62px;
+}
+
+header > .logo h2{
+    width: 284px;
+    height: 42px;
+    margin-top: 69px;
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #445964;
+}
+
+header > .navebar{
+    display: flex;
+    gap: 50px;
+    width: 856px;
+    height: 23px;
+    margin-top: 78px;
+    margin-right: 250px;
+
+}
+
+.navebar > a{
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #445964;
+}
+
+.navebar > a:hover{
+    color: #347857;
+}
+/* FIM HEADER*/
+
+
+section{
+    display: flex;
+    align-items: center;
+    width: 545px;
+    height: 240px;
+    margin-top: 220px;
+    margin-left: 251px;
+}
+
+section > .container{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.welcomeMessage{
+    width: 545px;
+    height: 240px;
+}
+
+.welcomeMessage > p{
+    /* width: 138px;
+    height: 28px; */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #445964;
+}
+
+.welcomeMessage > h1{
+    /* width: 545px;
+    height:168px; */
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84.38px;
+    color: #445964;
+}
+
+
+img{
+    width: 705px;
+    height: 697px;
+}
+
+button{
+    width: 310px;
+    height: 65px;
+    margin-left: 251px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-size: 24px;
+    line-height: 28.13px;
+    background-color: #263138;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #485c68;
+    transition: all 0.01s;
+}
+
+/*FIM SECTION*/
+
+
+
