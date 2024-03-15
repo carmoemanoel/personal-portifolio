@@ -9,9 +9,9 @@
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 251px;
+    margin-left: 250px;
     /* margin-top: 62px; */
 }
 
@@ -46,7 +46,6 @@ header > .navebar{
     height: 23px;
     margin-top: 78px;
     margin-right: 250px;
-
 }
 
 .navebar > a{
@@ -56,9 +55,10 @@ header > .navebar{
     color: #445964;
 }
 
-.navebar > a:hover{
+/* .navebar > a:hover{
     color: #347857;
-}
+} */
+
 /* FIM HEADER*/
 
 
@@ -73,44 +73,50 @@ section{
 
 section > .container{
     display: flex;
-    align-items: center;
-    gap: 35px;
+    align-items: center;        
 }
 
 .welcomeMessage{
     width: 545px;
     height: 240px;
+    margin-left: 50px;
 }
 
 .welcomeMessage > p{
     /* width: 138px;
     height: 28px; */
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28.13px;
     color: #445964;
+    margin-top: 10px;
 }
 
 .welcomeMessage > h1{
     /* width: 545px;
     height:168px; */
     font-weight: 700;
-    font-size: 72px;
-    line-height: 84.38px;
+    font-size: 60px;
+    line-height: 48.50px;
     color: #445964;
 }
 
-
-img{
+.home-art1{
     width: 705px;
     height: 697px;
+    margin-left: 100px;
+}
+
+.home-art1 img{
+    width: 557.28px;
+    height: 619.23px;
+    margin-left: 110.01px;
 }
 
 button{
     width: 310px;
     height: 65px;
-    margin-left: 251px;
-    margin-top: 50px;
+    margin-left: 300px;
     border-radius: 20px;
     font-size: 24px;
     line-height: 28.13px;
@@ -123,8 +129,66 @@ button:hover{
     background-color: #485c68;
     transition: all 0.01s;
 }
-
 /*FIM SECTION*/
 
+.icon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    gap: 15px;
+    margin-left: 300px;
+    margin-top: 20px;
+
+}
 
 
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+
+img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about h2{
+    width:500px;
+    margin-top: 20px;
+}
+
+.name{
+    margin-left: 100px;
+    font-size: 60px;
+    color: #445964;
+}
+
+.about p{
+    font-size: 20px;
+    color: #445964;
+    width: 1090px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.habilidades{
+    font-size: 60px;
+    margin-left: 230px;
+    color: #445964;
+}
+
+.hard-skills{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.hard-skills img{
+    width: 50px;
+    height: 50px;
+}
